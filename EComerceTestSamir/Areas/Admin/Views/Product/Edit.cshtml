@@ -1,0 +1,79 @@
+﻿@model CategoryWithBrandInfoVM
+<form asp-action="Edit" asp-controller="Product" method="post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="Product.Id" />
+
+    <div class="mb-3">
+        <label asp-for="Product.Name" class="form-label"></label>
+        <input asp-for="Product.Name" class="form-control" />
+        <span asp-validation-for="Product.Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-floating mb-3">
+        <textarea asp-for="Product.Description" class="form-control" style="height:100px" placeholder="Description" id="floatingTextarea"></textarea>
+        <label for="floatingTextarea">Description</label>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Product.MainImg" class="form-label"></label>
+<input class="form-control" type="file" name="MainImg" />
+    </div>
+    @if (!string.IsNullOrEmpty(Model.Product.MainImg))
+    {
+        <div class="mt-2">
+            <label>Current Image:</label><br />
+            <img src="~/images/@Model.Product.MainImg" alt="Current Image" width="150" class="mb-2" />
+
+            <!-- زر حذف -->
+            <a class="btn btn-danger me-2" href="/Admin/Product/DeleteImage/@Model.Product.Id">Delete</a>
+
+            <!-- زر استبدال -->
+            <button type="button" class="btn btn-warning" onclick="document.getElementById('fileInput').click();">Replace</button>
+
+            <!-- فورم خفي -->
+            <form id="replaceImageForm" asp-action="ReplaceImage" asp-controller="Product" asp-route-id="@Model.Product.Id" enctype="multipart/form-data" method="post" style="display:none;">
+                <input type="file" name="MainImg" id="fileInput" onchange="document.getElementById('replaceImageForm').submit();" />
+            </form>
+        </div>
+    }
+
+    <div class="mb-3">
+        <label asp-for="Product.Price" class="form-label"></label>
+        <input asp-for="Product.Price" class="form-control" />
+        <span asp-validation-for="Product.Price" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Product.CategoryId" class="form-label">Category Name</label>
+        <select asp-for="Product.CategoryId" class="form-control" asp-items="@(new SelectList(Model.Categories, "Id", "Name"))">
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Product.BrandId" class="form-label">Brand Name</label>
+        <select asp-for="Product.BrandId" class="form-control" asp-items="@(new SelectList(Model.Brands, "Id", "Name"))">
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label for="status">Status</label>
+        <select class="form-select" name="Product.Status">
+            @if (Model.Product.Status)
+            {
+                <option value="false">OFF</option>
+                <option value="true" selected>ON</option>
+            }
+            else
+            {
+                <option value="false" selected>OFF</option>
+                <option value="true">ON</option>
+            }
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+@section Scripts
+{
+    <partial name="_ValidationScriptsPartial" />
+}

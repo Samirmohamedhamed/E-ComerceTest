@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EComerceTestSamir")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb8266599ed6ad9c4ab180c2c383a51040d89be4")]
 [assembly: System.Reflection.AssemblyProductAttribute("EComerceTestSamir")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EComerceTestSamir")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

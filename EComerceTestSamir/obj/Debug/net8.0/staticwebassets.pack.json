@@ -5,8 +5,32 @@
       "PackagePath": "staticwebassets\\EComerceTestSamir.bundle.scp.css"
     },
     {
+      "Id": "D:\\c#\\Eraa_Soft_Tasks\\EComerceTestSamir\\EComerceTestSamir\\wwwroot\\assets\\admin_img\\error-404-monochrome.svg",
+      "PackagePath": "staticwebassets\\assets\\admin_img\\error-404-monochrome.svg"
+    },
+    {
+      "Id": "D:\\c#\\Eraa_Soft_Tasks\\EComerceTestSamir\\EComerceTestSamir\\wwwroot\\assets\\chart_admin_demo\\chart-area-demo.js",
+      "PackagePath": "staticwebassets\\assets\\chart_admin_demo\\chart-area-demo.js"
+    },
+    {
+      "Id": "D:\\c#\\Eraa_Soft_Tasks\\EComerceTestSamir\\EComerceTestSamir\\wwwroot\\assets\\chart_admin_demo\\chart-bar-demo.js",
+      "PackagePath": "staticwebassets\\assets\\chart_admin_demo\\chart-bar-demo.js"
+    },
+    {
+      "Id": "D:\\c#\\Eraa_Soft_Tasks\\EComerceTestSamir\\EComerceTestSamir\\wwwroot\\assets\\chart_admin_demo\\chart-pie-demo.js",
+      "PackagePath": "staticwebassets\\assets\\chart_admin_demo\\chart-pie-demo.js"
+    },
+    {
+      "Id": "D:\\c#\\Eraa_Soft_Tasks\\EComerceTestSamir\\EComerceTestSamir\\wwwroot\\assets\\chart_admin_demo\\datatables-demo.js",
+      "PackagePath": "staticwebassets\\assets\\chart_admin_demo\\datatables-demo.js"
+    },
+    {
       "Id": "D:\\c#\\Eraa_Soft_Tasks\\EComerceTestSamir\\EComerceTestSamir\\wwwroot\\assets\\favicon.ico",
       "PackagePath": "staticwebassets\\assets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\c#\\Eraa_Soft_Tasks\\EComerceTestSamir\\EComerceTestSamir\\wwwroot\\css\\AdminStyles.css",
+      "PackagePath": "staticwebassets\\css\\AdminStyles.css"
     },
     {
       "Id": "D:\\c#\\Eraa_Soft_Tasks\\EComerceTestSamir\\EComerceTestSamir\\wwwroot\\css\\site.css",
@@ -39,6 +63,14 @@
     {
       "Id": "D:\\c#\\Eraa_Soft_Tasks\\EComerceTestSamir\\EComerceTestSamir\\wwwroot\\images\\5.png",
       "PackagePath": "staticwebassets\\images\\5.png"
+    },
+    {
+      "Id": "D:\\c#\\Eraa_Soft_Tasks\\EComerceTestSamir\\EComerceTestSamir\\wwwroot\\js\\AdminScripts.js",
+      "PackagePath": "staticwebassets\\js\\AdminScripts.js"
+    },
+    {
+      "Id": "D:\\c#\\Eraa_Soft_Tasks\\EComerceTestSamir\\EComerceTestSamir\\wwwroot\\js\\datatables-simple-demo.js",
+      "PackagePath": "staticwebassets\\js\\datatables-simple-demo.js"
     },
     {
       "Id": "D:\\c#\\Eraa_Soft_Tasks\\EComerceTestSamir\\EComerceTestSamir\\wwwroot\\js\\scripts.js",

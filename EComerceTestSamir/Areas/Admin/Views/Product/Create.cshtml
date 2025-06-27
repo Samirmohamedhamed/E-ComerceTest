@@ -1,0 +1,52 @@
+﻿@model CategoryWithBrandInfoVM
+<form asp-action="Create" asp-controller="Product" method="post" enctype="multipart/form-data">
+    <div class="mb-3">
+        <label asp-for="Product.Name" class="form-label"></label>
+        <input asp-for="Product.Name" class="form-control" />
+        <span asp-validation-for="Product.Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-floating mb-3">
+        <textarea asp-for="Product.Description" class="form-control" style="height:100px" placeholder="Description" id="floatingTextarea"></textarea>
+        <label for="floatingTextarea">Description</label>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Product.MainImg" class="form-label"></label>
+        <input asp-for="Product.MainImg" class="form-control" type="file" name="MainImg"/> 
+        <span asp-validation-for="Product.MainImg" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Product.Price" class="form-label"></label>
+        <input asp-for="Product.Price" class="form-control" />
+        <span asp-validation-for="Product.Price" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Product.CategoryId" class="form-label">Category Name</label>
+        <select asp-for="Product.CategoryId" class="form-control" asp-items="@(new SelectList(Model.Categories, "Id", "Name"))">
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Product.BrandId" class="form-label">Brand Name</label>
+        <select asp-for="Product.BrandId" class="form-control" asp-items="@(new SelectList(Model.Brands, "Id", "Name"))">
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label for="status">Status</label>
+        <select class="form-select" name="Product.Status">
+            <option value="false">OFF</option>
+            <option value="true">ON</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+@section Scripts
+{
+    <partial name="_ValidationScriptsPartial" />
+}

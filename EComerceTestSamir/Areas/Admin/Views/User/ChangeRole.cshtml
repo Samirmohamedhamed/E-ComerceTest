@@ -1,0 +1,38 @@
+﻿@model UserWithRoleVM
+
+@section Scripts {
+    <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+
+}
+<div class="container">
+
+    <div class="row mb-3">
+        <div class="col-6 d-flex align-items-center">
+            <div class="display-6 mb-0">Edit Category</div>
+        </div>
+    </div>
+    <div class="row"></div>
+    <div class="col-12 m-3">
+        <form method="post">
+            <input type="hidden" asp-for="@Model.ApplicationUser.Id"></input>
+            <div class="mb-3">
+                <label for="ApplicationUser.UserName" class="form-label">Name</label>
+                <input type="text" class="form-control" id="ApplicationUser.UserName" name="ApplicationUser.UserName" value="@Model.ApplicationUser.UserName">
+                <span asp-validation-for=" ApplicationUser.UserName" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="identityRoles">Status</label>
+                <select class="form-select" name="role">
+                  @foreach(var item in Model.identityRoles)
+                    {
+                        <option value="@item.Name" >@item.Name</option>
+                    }
+
+                </select>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</div>
+<div />

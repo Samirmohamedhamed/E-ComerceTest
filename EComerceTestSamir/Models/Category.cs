@@ -1,9 +1,15 @@
-﻿namespace EComerceTestSamir.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace EComerceTestSamir.Models
 {
     public class Category
     {
         public int Id { get; set; }
-        public string Name { get; set; } = string.Empty;
+        [Required]
+        //[MinLength(3)]
+        //[MaxLength(15)]
+       
+        public string Name { get; set; } 
         public string? Description { get; set; }
         public bool Status { get; set; }
 

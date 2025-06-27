@@ -1,0 +1,47 @@
+﻿@model Category
+
+<div class="container">
+
+    <div class="row mb-3">
+        <div class="col-6 d-flex align-items-center">
+            <div class="display-6 mb-0">Edit Category</div>
+        </div>
+    </div>
+    <div class="row"></div>
+    <div class="col-12 m-3">
+        <form method="post">
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" asp-for="Name">
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-floating mb-3">
+                <textarea name="description" class="form-control" style="height:100px" placeholder="Description" id="floatingTextarea">@Model.Description</textarea>
+                <label for="floatingTextarea">Description</label>
+            </div>
+            <div class="mb-3">
+                <label for="status">Status</label>
+                <select class="form-select" name="status">
+                    @if (!Model.Status)
+                    {
+                        <option value="false" selected>OFF</option>
+                        <option value="true">ON</option>
+                    }
+                    else
+                    {
+                        <option value="false">OFF</option>
+                        <option value="true" selected>ON</option>
+                    }
+
+                </select>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</div>
+<div />
+@section Scripts
+{
+    <partial name="_ValidationScriptsPartial">
+}

@@ -1,14 +1,19 @@
-﻿namespace EComerceTestSamir.Models
-{
-   
-        public class Brand
-        {
-            public int Id { get; set; }
-            public string Name { get; set; } = string.Empty;
-            public string? Description { get; set; }
-            public bool Status { get; set; }
+﻿using System.ComponentModel.DataAnnotations;
 
-            public ICollection<Product> Products { get; } = new List<Product>();
-        }
+namespace EComerceTestSamir.Models
+{
+
+    public class Brand
+    {
+        public int Id { get; set; }
+        [Required]
+        [MinLength(3)]
+        [MaxLength(15)]
+        public string Name { get; set; } = string.Empty;
+        public string? Description { get; set; }
+        public bool Status { get; set; }
+
+        public ICollection<Product> Products { get; } = new List<Product>();
     }
+}
 

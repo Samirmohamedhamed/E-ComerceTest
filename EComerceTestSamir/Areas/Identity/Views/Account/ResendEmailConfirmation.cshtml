@@ -1,0 +1,27 @@
+﻿@model ResendEmailConfirmationVM
+<div class="container">
+    <div class="row mb-3">
+        <div class="col-6 d-flex align-items-center">
+            <div class="display-6 mb-0">Create Category</div>
+        </div>
+    </div>
+    <div class="row"></div>
+    <div class="col-12 m-3">
+        <form method="post">
+            <div class="text-bg-danger" asp-validation-summary="ModelOnly"></div>
+            <div class="mb-3">
+                <label for="UserNameOrEmail" class="form-label">UserNameOrEmail</label>
+                <input class="form-control" asp-for="UserNameOrEmail">
+                <span asp-validation-for="UserNameOrEmail" class="text-danger"></span>
+            <button type="submit" class="btn btn-primary">Submit</button>
+
+        </form>
+    </div>
+</div>
+<div />
+@section Scripts
+{
+
+    <partial name="_ValidationScriptsPartial">
+}
+

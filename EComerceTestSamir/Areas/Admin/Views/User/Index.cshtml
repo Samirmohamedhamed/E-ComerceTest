@@ -1,0 +1,103 @@
+﻿@model Dictionary<ApplicationUser,string>
+
+
+
+<div class="container">
+
+    <div class="row mb-3">
+        <div class="col-6 d-flex align-items-center">
+            <div class="display-6 mb-0">All Categories</div>
+        </div>
+
+        <div class="col-6 d-flex justify-content-end align-items-center">
+            <a href="/Admin/User/Create" class="btn btn-success">Create</a>
+        </div>
+
+
+    </div>
+
+    <div class="row"></div>
+
+    <div class="col-12 m-3">
+        <table class="table table-hover">
+            <thead>
+                <tr class="bg-dark text-light">
+                    <th scope="col">#</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Role Name</th>
+                    <th scope="col">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+              @foreach (var item in Model)
+{
+    bool isBlocked = item.Key.LockoutEnd.HasValue && item.Key.LockoutEnd.Value > DateTimeOffset.Now;
+
+    <tr>
+        <th scope="row">@item.Key.Id</th>
+        <td>@item.Key.UserName</td>
+        <td>@item.Key.Email</td>
+        <td>@item.Value</td>
+        <td>
+            <a href="/Admin/User/ChangeRole/@item.Key.Id">
+                <span class="badge text-bg-warning">Change Role</span>
+            </a>
+
+            @if (item.Key.LockoutEnabled)
+            {
+                 <a href="javascript:void(0);" onclick="confirmBlock('@item.Key.Id')">
+                    <span class="badge text-bg-danger">Block</span>
+                </a>
+            
+            }
+            else
+            {
+                   <a href="javascript:void(0);" onclick="confirmUnblock('@item.Key.Id')">
+                    <span class="badge text-bg-success">Unblock</span>
+                </a>
+            }
+        </td>
+    </tr>
+}
+
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- SweetAlert2 JS -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+    function confirmBlock(id) {
+        Swal.fire({
+            title: 'Are you sure?',
+            text: "This user will be blocked!",
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#d33',
+            cancelButtonColor: '#6c757d',
+            confirmButtonText: 'Yes, block!'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                window.location.href = `/Admin/User/LockUnLock/${id}`;
+            }
+        });
+    }
+
+    function confirmUnblock(id) {
+        Swal.fire({
+            title: 'Are you sure?',
+            text: "This user will be unblocked!",
+            icon: 'info',
+            showCancelButton: true,
+            confirmButtonColor: '#28a745',
+            cancelButtonColor: '#6c757d',
+            confirmButtonText: 'Yes, unblock!'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                window.location.href = `/Admin/User/LockUnLock/${id}`;
+            }
+        });
+    }
+</script>

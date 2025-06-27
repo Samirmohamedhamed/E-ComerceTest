@@ -3,40 +3,36 @@
   "WorkspaceRootPath": "D:\\c#\\Eraa_Soft_Tasks\\EComerceTestSamir\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DBACBFD1-F11C-4B38-83A7-818B6EFE03B9}|EComerceTestSamir\\EComerceTestSamir.csproj|d:\\c#\\eraa_soft_tasks\\ecomercetestsamir\\ecomercetestsamir\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBACBFD1-F11C-4B38-83A7-818B6EFE03B9}|EComerceTestSamir\\EComerceTestSamir.csproj|solutionrelative:ecomercetestsamir\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBACBFD1-F11C-4B38-83A7-818B6EFE03B9}|EComerceTestSamir\\EComerceTestSamir.csproj|d:\\c#\\eraa_soft_tasks\\ecomercetestsamir\\ecomercetestsamir\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DBACBFD1-F11C-4B38-83A7-818B6EFE03B9}|EComerceTestSamir\\EComerceTestSamir.csproj|solutionrelative:ecomercetestsamir\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBACBFD1-F11C-4B38-83A7-818B6EFE03B9}|EComerceTestSamir\\EComerceTestSamir.csproj|d:\\c#\\eraa_soft_tasks\\ecomercetestsamir\\ecomercetestsamir\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{DBACBFD1-F11C-4B38-83A7-818B6EFE03B9}|EComerceTestSamir\\EComerceTestSamir.csproj|solutionrelative:ecomercetestsamir\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBACBFD1-F11C-4B38-83A7-818B6EFE03B9}|EComerceTestSamir\\EComerceTestSamir.csproj|d:\\c#\\eraa_soft_tasks\\ecomercetestsamir\\ecomercetestsamir\\views\\home\\detailsitem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DBACBFD1-F11C-4B38-83A7-818B6EFE03B9}|EComerceTestSamir\\EComerceTestSamir.csproj|solutionrelative:ecomercetestsamir\\views\\home\\detailsitem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBACBFD1-F11C-4B38-83A7-818B6EFE03B9}|EComerceTestSamir\\EComerceTestSamir.csproj|d:\\c#\\eraa_soft_tasks\\ecomercetestsamir\\ecomercetestsamir\\models\\viewmodels\\productrelated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBACBFD1-F11C-4B38-83A7-818B6EFE03B9}|EComerceTestSamir\\EComerceTestSamir.csproj|solutionrelative:ecomercetestsamir\\models\\viewmodels\\productrelated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBACBFD1-F11C-4B38-83A7-818B6EFE03B9}|EComerceTestSamir\\EComerceTestSamir.csproj|d:\\c#\\eraa_soft_tasks\\ecomercetestsamir\\ecomercetestsamir\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DBACBFD1-F11C-4B38-83A7-818B6EFE03B9}|EComerceTestSamir\\EComerceTestSamir.csproj|solutionrelative:ecomercetestsamir\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBACBFD1-F11C-4B38-83A7-818B6EFE03B9}|EComerceTestSamir\\EComerceTestSamir.csproj|d:\\c#\\eraa_soft_tasks\\ecomercetestsamir\\ecomercetestsamir\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DBACBFD1-F11C-4B38-83A7-818B6EFE03B9}|EComerceTestSamir\\EComerceTestSamir.csproj|solutionrelative:ecomercetestsamir\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBACBFD1-F11C-4B38-83A7-818B6EFE03B9}|EComerceTestSamir\\EComerceTestSamir.csproj|d:\\c#\\eraa_soft_tasks\\ecomercetestsamir\\ecomercetestsamir\\views\\home\\notfoundpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DBACBFD1-F11C-4B38-83A7-818B6EFE03B9}|EComerceTestSamir\\EComerceTestSamir.csproj|solutionrelative:ecomercetestsamir\\views\\home\\notfoundpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{DBACBFD1-F11C-4B38-83A7-818B6EFE03B9}|EComerceTestSamir\\EComerceTestSamir.csproj|d:\\c#\\eraa_soft_tasks\\ecomercetestsamir\\ecomercetestsamir\\areas\\admin\\views\\user\\changerole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBACBFD1-F11C-4B38-83A7-818B6EFE03B9}|EComerceTestSamir\\EComerceTestSamir.csproj|solutionrelative:ecomercetestsamir\\areas\\admin\\views\\user\\changerole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DBACBFD1-F11C-4B38-83A7-818B6EFE03B9}|EComerceTestSamir\\EComerceTestSamir.csproj|d:\\c#\\eraa_soft_tasks\\ecomercetestsamir\\ecomercetestsamir\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DBACBFD1-F11C-4B38-83A7-818B6EFE03B9}|EComerceTestSamir\\EComerceTestSamir.csproj|solutionrelative:ecomercetestsamir\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBACBFD1-F11C-4B38-83A7-818B6EFE03B9}|EComerceTestSamir\\EComerceTestSamir.csproj|d:\\c#\\eraa_soft_tasks\\ecomercetestsamir\\ecomercetestsamir\\areas\\customer\\controllers\\favoritecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBACBFD1-F11C-4B38-83A7-818B6EFE03B9}|EComerceTestSamir\\EComerceTestSamir.csproj|solutionrelative:ecomercetestsamir\\areas\\customer\\controllers\\favoritecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBACBFD1-F11C-4B38-83A7-818B6EFE03B9}|EComerceTestSamir\\EComerceTestSamir.csproj|d:\\c#\\eraa_soft_tasks\\ecomercetestsamir\\ecomercetestsamir\\areas\\customer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBACBFD1-F11C-4B38-83A7-818B6EFE03B9}|EComerceTestSamir\\EComerceTestSamir.csproj|solutionrelative:ecomercetestsamir\\areas\\customer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBACBFD1-F11C-4B38-83A7-818B6EFE03B9}|EComerceTestSamir\\EComerceTestSamir.csproj|d:\\c#\\eraa_soft_tasks\\ecomercetestsamir\\ecomercetestsamir\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DBACBFD1-F11C-4B38-83A7-818B6EFE03B9}|EComerceTestSamir\\EComerceTestSamir.csproj|solutionrelative:ecomercetestsamir\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBACBFD1-F11C-4B38-83A7-818B6EFE03B9}|EComerceTestSamir\\EComerceTestSamir.csproj|d:\\c#\\eraa_soft_tasks\\ecomercetestsamir\\ecomercetestsamir\\areas\\customer\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBACBFD1-F11C-4B38-83A7-818B6EFE03B9}|EComerceTestSamir\\EComerceTestSamir.csproj|solutionrelative:ecomercetestsamir\\areas\\customer\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBACBFD1-F11C-4B38-83A7-818B6EFE03B9}|EComerceTestSamir\\EComerceTestSamir.csproj|d:\\c#\\eraa_soft_tasks\\ecomercetestsamir\\ecomercetestsamir\\areas\\customer\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBACBFD1-F11C-4B38-83A7-818B6EFE03B9}|EComerceTestSamir\\EComerceTestSamir.csproj|solutionrelative:ecomercetestsamir\\areas\\customer\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBACBFD1-F11C-4B38-83A7-818B6EFE03B9}|EComerceTestSamir\\EComerceTestSamir.csproj|d:\\c#\\eraa_soft_tasks\\ecomercetestsamir\\ecomercetestsamir\\areas\\customer\\views\\checkout\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBACBFD1-F11C-4B38-83A7-818B6EFE03B9}|EComerceTestSamir\\EComerceTestSamir.csproj|solutionrelative:ecomercetestsamir\\areas\\customer\\views\\checkout\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,115 +54,101 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "site.css",
-              "DocumentMoniker": "D:\\c#\\Eraa_Soft_Tasks\\EComerceTestSamir\\EComerceTestSamir\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "EComerceTestSamir\\wwwroot\\css\\site.css",
-              "ToolTip": "D:\\c#\\Eraa_Soft_Tasks\\EComerceTestSamir\\EComerceTestSamir\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "EComerceTestSamir\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-09T14:57:12.314Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "D:\\c#\\Eraa_Soft_Tasks\\EComerceTestSamir\\EComerceTestSamir\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "EComerceTestSamir\\Views\\_ViewImports.cshtml",
-              "ToolTip": "D:\\c#\\Eraa_Soft_Tasks\\EComerceTestSamir\\EComerceTestSamir\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "EComerceTestSamir\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-07T14:33:13.382Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductRelated.cs",
-              "DocumentMoniker": "D:\\c#\\Eraa_Soft_Tasks\\EComerceTestSamir\\EComerceTestSamir\\Models\\ViewModels\\ProductRelated.cs",
-              "RelativeDocumentMoniker": "EComerceTestSamir\\Models\\ViewModels\\ProductRelated.cs",
-              "ToolTip": "D:\\c#\\Eraa_Soft_Tasks\\EComerceTestSamir\\EComerceTestSamir\\Models\\ViewModels\\ProductRelated.cs",
-              "RelativeToolTip": "EComerceTestSamir\\Models\\ViewModels\\ProductRelated.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T14:26:36.432Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\c#\\Eraa_Soft_Tasks\\EComerceTestSamir\\EComerceTestSamir\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "EComerceTestSamir\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\c#\\Eraa_Soft_Tasks\\EComerceTestSamir\\EComerceTestSamir\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "EComerceTestSamir\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAowC0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T22:54:59.818Z",
+              "Title": "ChangeRole.cshtml",
+              "DocumentMoniker": "D:\\c#\\Eraa_Soft_Tasks\\EComerceTestSamir\\EComerceTestSamir\\Areas\\Admin\\Views\\User\\ChangeRole.cshtml",
+              "RelativeDocumentMoniker": "EComerceTestSamir\\Areas\\Admin\\Views\\User\\ChangeRole.cshtml",
+              "ToolTip": "D:\\c#\\Eraa_Soft_Tasks\\EComerceTestSamir\\EComerceTestSamir\\Areas\\Admin\\Views\\User\\ChangeRole.cshtml",
+              "RelativeToolTip": "EComerceTestSamir\\Areas\\Admin\\Views\\User\\ChangeRole.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T11:27:39.838Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DetailsItem.cshtml",
-              "DocumentMoniker": "D:\\c#\\Eraa_Soft_Tasks\\EComerceTestSamir\\EComerceTestSamir\\Views\\Home\\DetailsItem.cshtml",
-              "RelativeDocumentMoniker": "EComerceTestSamir\\Views\\Home\\DetailsItem.cshtml",
-              "ToolTip": "D:\\c#\\Eraa_Soft_Tasks\\EComerceTestSamir\\EComerceTestSamir\\Views\\Home\\DetailsItem.cshtml",
-              "RelativeToolTip": "EComerceTestSamir\\Views\\Home\\DetailsItem.cshtml",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAAAGoAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-06T13:28:34.344Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "NotFoundPage.cshtml",
-              "DocumentMoniker": "D:\\c#\\Eraa_Soft_Tasks\\EComerceTestSamir\\EComerceTestSamir\\Views\\Home\\NotFoundPage.cshtml",
-              "RelativeDocumentMoniker": "EComerceTestSamir\\Views\\Home\\NotFoundPage.cshtml",
-              "ToolTip": "D:\\c#\\Eraa_Soft_Tasks\\EComerceTestSamir\\EComerceTestSamir\\Views\\Home\\NotFoundPage.cshtml",
-              "RelativeToolTip": "EComerceTestSamir\\Views\\Home\\NotFoundPage.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-06T13:58:55.751Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\c#\\Eraa_Soft_Tasks\\EComerceTestSamir\\EComerceTestSamir\\Program.cs",
               "RelativeDocumentMoniker": "EComerceTestSamir\\Program.cs",
               "ToolTip": "D:\\c#\\Eraa_Soft_Tasks\\EComerceTestSamir\\EComerceTestSamir\\Program.cs",
               "RelativeToolTip": "EComerceTestSamir\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T18:17:24.939Z"
+              "WhenOpened": "2025-06-21T10:59:05.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FavoriteController.cs",
+              "DocumentMoniker": "D:\\c#\\Eraa_Soft_Tasks\\EComerceTestSamir\\EComerceTestSamir\\Areas\\Customer\\Controllers\\FavoriteController.cs",
+              "RelativeDocumentMoniker": "EComerceTestSamir\\Areas\\Customer\\Controllers\\FavoriteController.cs",
+              "ToolTip": "D:\\c#\\Eraa_Soft_Tasks\\EComerceTestSamir\\EComerceTestSamir\\Areas\\Customer\\Controllers\\FavoriteController.cs",
+              "RelativeToolTip": "EComerceTestSamir\\Areas\\Customer\\Controllers\\FavoriteController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAuwDUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T17:44:55.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\c#\\Eraa_Soft_Tasks\\EComerceTestSamir\\EComerceTestSamir\\Areas\\Customer\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "EComerceTestSamir\\Areas\\Customer\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\c#\\Eraa_Soft_Tasks\\EComerceTestSamir\\EComerceTestSamir\\Areas\\Customer\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "EComerceTestSamir\\Areas\\Customer\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAowJMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T17:41:24.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\c#\\Eraa_Soft_Tasks\\EComerceTestSamir\\EComerceTestSamir\\appsettings.json",
+              "RelativeDocumentMoniker": "EComerceTestSamir\\appsettings.json",
+              "ToolTip": "D:\\c#\\Eraa_Soft_Tasks\\EComerceTestSamir\\EComerceTestSamir\\appsettings.json",
+              "RelativeToolTip": "EComerceTestSamir\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-16T17:26:31.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Success.cshtml",
+              "DocumentMoniker": "D:\\c#\\Eraa_Soft_Tasks\\EComerceTestSamir\\EComerceTestSamir\\Areas\\Customer\\Views\\Checkout\\Success.cshtml",
+              "RelativeDocumentMoniker": "EComerceTestSamir\\Areas\\Customer\\Views\\Checkout\\Success.cshtml",
+              "ToolTip": "D:\\c#\\Eraa_Soft_Tasks\\EComerceTestSamir\\EComerceTestSamir\\Areas\\Customer\\Views\\Checkout\\Success.cshtml",
+              "RelativeToolTip": "EComerceTestSamir\\Areas\\Customer\\Views\\Checkout\\Success.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T18:43:04.28Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\c#\\Eraa_Soft_Tasks\\EComerceTestSamir\\EComerceTestSamir\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "EComerceTestSamir\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\c#\\Eraa_Soft_Tasks\\EComerceTestSamir\\EComerceTestSamir\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "EComerceTestSamir\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABIAAABpAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-05T18:16:27.665Z"
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\c#\\Eraa_Soft_Tasks\\EComerceTestSamir\\EComerceTestSamir\\Areas\\Customer\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "EComerceTestSamir\\Areas\\Customer\\Controllers\\CartController.cs",
+              "ToolTip": "D:\\c#\\Eraa_Soft_Tasks\\EComerceTestSamir\\EComerceTestSamir\\Areas\\Customer\\Controllers\\CartController.cs",
+              "RelativeToolTip": "EComerceTestSamir\\Areas\\Customer\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAqwG8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T18:38:39.132Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\c#\\Eraa_Soft_Tasks\\EComerceTestSamir\\EComerceTestSamir\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "EComerceTestSamir\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\c#\\Eraa_Soft_Tasks\\EComerceTestSamir\\EComerceTestSamir\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "EComerceTestSamir\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAIEAAAAAAAAAAAAAAJoAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-05T18:25:33.843Z",
-              "EditorCaption": ""
+              "DocumentIndex": 5,
+              "Title": "CheckoutController.cs",
+              "DocumentMoniker": "D:\\c#\\Eraa_Soft_Tasks\\EComerceTestSamir\\EComerceTestSamir\\Areas\\Customer\\Controllers\\CheckoutController.cs",
+              "RelativeDocumentMoniker": "EComerceTestSamir\\Areas\\Customer\\Controllers\\CheckoutController.cs",
+              "ToolTip": "D:\\c#\\Eraa_Soft_Tasks\\EComerceTestSamir\\EComerceTestSamir\\Areas\\Customer\\Controllers\\CheckoutController.cs",
+              "RelativeToolTip": "EComerceTestSamir\\Areas\\Customer\\Controllers\\CheckoutController.cs",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAAAJ4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T18:34:57.82Z"
             }
           ]
         }
